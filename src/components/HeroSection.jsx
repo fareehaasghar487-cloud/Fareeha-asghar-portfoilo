@@ -18,19 +18,19 @@ const HeroSection = () => {
   const socialLinks = [
     {
       icon: <FaFacebookF className="h-5 w-5" />,
-      onClick: () => window.open("https://facebook.com", "_blank"),
+      onClick: () => window.open("https://www.facebook.com/share/14Kdpjwqzbc/", "_blank"),
       color: "hover:bg-blue-600 hover:shadow-[0_0_15px_#2563eb]",
       aos: "flip-left",
     },
     {
       icon: <FaLinkedinIn className="h-5 w-5" />,
-      onClick: () => window.open("https://linkedin.com/in/fakhar-abbas-bhatti", "_blank"),
+      onClick: () => window.open("https://www.linkedin.com/in/fareeha-asghar-247b7935a", "_blank"),
       color: "hover:bg-blue-500 hover:shadow-[0_0_15px_#38bdf8]",
       aos: "flip-up",
     },
     {
       icon: <FaGithub className="h-5 w-5" />,
-      onClick: () => window.open("https://github.com/fakharabbasbhatti", "_blank"),
+      onClick: () => window.open("https://github.com/fareehaasghar487-cloud", "_blank"),
       color: "hover:bg-gray-800 hover:shadow-[0_0_15px_#6b7280]",
       aos: "flip-right",
     },
@@ -72,7 +72,7 @@ const HeroSection = () => {
               data-aos="fade-right"
               className="text-white text-3xl sm:text-4xl md:text-6xl font-bold leading-tight mb-4"
             >
-              Fakhar Abbas
+              Fareeha Asghar
             </h1>
 
             <div
@@ -81,7 +81,7 @@ const HeroSection = () => {
             >
               <span className="text-white">
                 <Typewriter
-                  words={["Front-End Developer", "UI/UX Designer", "React Specialist", "Web Enthusiast"]}
+                  words={["Front-End Developer", "UI/UX Designer", "Backend developer", "Web Enthusiast"]}
                   loop
                   cursor
                   cursorStyle="_"
@@ -178,7 +178,7 @@ const HeroSection = () => {
                 Frontend Developer
               </div>
               <div className="absolute bottom-2 right-2 bg-gradient-to-r from-indigo-500 to-purple-600 text-white text-xs sm:text-sm md:text-base font-semibold px-3 py-1 rounded-full shadow-lg">
-                WordPress Expert
+                Backend developer
               </div>
             </div>
           </div>

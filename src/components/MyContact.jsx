@@ -30,9 +30,9 @@ const MyContact = () => {
 
   const contactInfo = [
     { icon: <MdLocationPin className="text-3xl text-[#38bdf8]" />, text: "Bahawalpur, Punjab, Pakistan", link: "#" },
-    { icon: <MdOutlineAlternateEmail className="text-3xl text-[#38bdf8]" />, text: "fakharabbasbhatti333@gmail.com", link: "mailto:fakharabbasbhatti333@gmail.com" },
-    { icon: <FaPhoneAlt className="text-3xl text-[#38bdf8]" />, text: "+92 322-9234045", link: "tel:+923086046246" },
-      { icon: <CgWebsite className="text-3xl text-[#38bdf8]" />, text: "https://fakhar-abbas-web.vercel.app/", link: "https://fakhar-abbas-web.vercel.app/" },
+    { icon: <MdOutlineAlternateEmail className="text-3xl text-[#38bdf8]" />, text: "fareehaasghar487@gmail.com", link: "mailto:fareehaasghar487@gmail.com" },
+    { icon: <FaPhoneAlt className="text-3xl text-[#38bdf8]" />, text: "+92 300-1487487", link: "tel:+923001587487" },
+      { icon: <CgWebsite className="text-3xl text-[#38bdf8]" />, text: "https://fareeha-asghar-web.vercel.app/", link: "https://fareeha-asghar-web.vercel.app/" },
   ];
 
   return (
@@ -81,7 +81,7 @@ const MyContact = () => {
                 </div>
                 <div>
                   <label className="block text-gray-300 mb-2">Your Message</label>
-                  <textarea name="message" rows="5" required placeholder="Hello Fakhar, I would like to discuss..." className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#38bdf8] text-white"></textarea>
+                  <textarea name="message" rows="5" required placeholder="Hello Fareeha, I would like to discuss..." className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#38bdf8] text-white"></textarea>
                 </div>
                 <button type="submit" className="w-full bg-gradient-to-r from-[#38bdf8] to-[#0ea5e9] text-white font-semibold py-3 px-6 rounded-lg flex items-center justify-center gap-2 hover:opacity-90 transition-all duration-300 hover:shadow-lg hover:shadow-[#38bdf8]/30">
                   Send Message <FaPaperPlane />

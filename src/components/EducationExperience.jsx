@@ -16,14 +16,20 @@ const EducationExperience = () => {
   const education = [
     {
       title: "Matriculation",
-      period: "2019 - 2021",
-      institution: "Govt APS School, Bahawalpur",
+      period: "2018 - 2019",
+      institution: "Sir syed Model Girls High School Hasilpur",
       icon: <FaGraduationCap className="text-white text-2xl" />,
     },
     {
       title: "Intermediate (ICS)",
-      period: "2021 - 2023",
-      institution: "PostGraduate College, Bahawalpur",
+      period: "2020 - 2021",
+      institution: "Punjab group of colleges, Hasilpur",
+      icon: <FaGraduationCap className="text-white text-2xl" />,
+    },
+     {
+      title: "Information Technology",
+      period: "2021 - 2025",
+      institution: "The Government Sadiq Women Univesity Bahawalpur",
       icon: <FaGraduationCap className="text-white text-2xl" />,
     },
   ];
@@ -31,14 +37,14 @@ const EducationExperience = () => {
   const experience = [
     {
       title: "Frontend Developer",
-      period: "2024 - Present",
-      company: "Codes Thinker Company (Onsite)",
+      period: "2024",
+      company: "Engimatix Bahawalpur (Onsite)",
       icon: <FaBriefcase className="text-white text-2xl" />,
     },
     {
-      title: "WordPress Developer",
-      period: "Jan 2025 - Present",
-      company: "Tech Thrill Company (Remote)",
+      title: "Backend Developer ",
+      period: "2025 - Present",
+      company: "Codes Thinker Company Bahawalpur (onsite)",
       icon: <FaBriefcase className="text-white text-2xl" />,
     },
   ];

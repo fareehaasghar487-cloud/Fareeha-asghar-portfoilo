@@ -22,14 +22,16 @@ const MySkills = () => {
   }, []);
 
   const skills = [
-    { name: "HTML5", icon: <FaHtml5 />, percentage: 90, color: "bg-[#E44D26]" },
+    { name: "HTML5", icon: <FaHtml5 />, percentage: 95, color: "bg-[#E44D26]" },
     { name: "CSS3", icon: <FaCss3Alt />, percentage: 85, color: "bg-[#264DE4]" },
     { name: "Bootstrap", icon: <FaBootstrap />, percentage: 80, color: "bg-[#7952B3]" },
     { name: "Tailwind CSS", icon: <SiTailwindcss />, percentage: 90, color: "bg-[#38BDF8]" },
     { name: "Framer Motion", icon: <TbBrandFramerMotion />, percentage: 86, color: "bg-[#0055FF]" },
     { name: "JavaScript", icon: <FaJs />, percentage: 75, color: "bg-[#F7DF1E]" },
     { name: "React.js", icon: <FaReact />, percentage: 80, color: "bg-[#61DAFB]" },
-    { name: "WordPress", icon: <SiWordpress />, percentage: 92, color: "bg-[#21759B]" },
+    { name: "Express", icon: <SiWordpress />, percentage: 92, color: "bg-[#21759B]" },
+    { name: "NodeJS", icon: <SiWordpress />, percentage: 92, color: "bg-[#21759B]" },
+    { name: "MongoDB", icon: <SiWordpress />, percentage: 85, color: "bg-[#7952B3]" },
   ];
 
   // Different AOS animations

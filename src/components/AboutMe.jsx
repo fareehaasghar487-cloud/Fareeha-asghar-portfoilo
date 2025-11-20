@@ -1,7 +1,13 @@
 import { Fragment, useEffect } from "react";
 import About from "../Images/fakharabbas.jpeg";
-import resume from "../Images/FakharAbbas.pdf";
-import { FaDownload, FaUserTie, FaCode, FaPalette, FaWordpress } from "react-icons/fa";
+import resume from "../Images/Fareeha-Asghar-Resume.pdf";
+import {
+  FaDownload,
+  FaUserTie,
+  FaCode,
+  FaPalette,
+  FaWordpress,
+} from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -18,7 +24,7 @@ const AboutMe = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = resume;
-    link.download = "FakharAbbas.pdf";
+    link.download = "Fareeha-Asghar-resume.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -33,7 +39,7 @@ const AboutMe = () => {
     },
     {
       icon: <FaWordpress className="text-[#21759b] text-xl sm:text-2xl" />,
-      title: "WordPress",
+      title: "Backend Dev",
       description: "Custom themes, plugins & CMS-based solutions",
       aos: "fade-up",
     },
@@ -94,7 +100,7 @@ const AboutMe = () => {
                   data-aos-delay="200"
                   className="absolute bottom-3 right-3 bg-gradient-to-r from-indigo-500 to-purple-600 text-white text-xs sm:text-sm px-3 py-1 rounded-full shadow-md font-medium z-20"
                 >
-                  WordPress Expert
+                  Backend Developer
                 </span>
               </div>
             </div>
@@ -106,8 +112,8 @@ const AboutMe = () => {
                 data-aos="zoom-in"
                 className="text-2xl sm:text-3xl font-bold text-white"
               >
-                I'm <span className="text-[#38bdf8]">Fakhar Abbas</span>, a
-                passionate Frontend Developer & WordPress Specialist
+                I'm <span className="text-[#38bdf8]">Fareeha Asghar</span>, a
+                passionate Frontend Developer & Backend Developer
               </h2>
 
               {/* Description */}
@@ -115,11 +121,15 @@ const AboutMe = () => {
                 data-aos="zoom-in-up"
                 className="text-gray-300 text-base sm:text-lg leading-relaxed"
               >
-                Specializing in React.js & WordPress, I craft exceptional digital
-                experiences with clean, efficient code and pixel-perfect
-                designs. My approach combines technical expertise with creative
-                problem-solving to deliver intuitive, high-performance web
-                applications that users love.
+                As a web developer, I work on both frontend and backend
+                development. On the frontend, I create user-friendly interfaces
+                using technologies like HTML, CSS, and JavaScript, ensuring that
+                websites are visually appealing, interactive, and responsive. On
+                the backend, I manage the server-side logic, databases, and APIs
+                using technologies such as Node.js, Express, and MongoDB,
+                ensuring smooth data processing and functionality. By combining
+                both, I build complete web applications that are not only
+                functional but also provide a seamless experience for users.
               </p>
 
               {/* Skills */}
